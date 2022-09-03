@@ -280,3 +280,14 @@ option{
         font-size: 13px;
     }
 }
+@media (max-width:400px) {
+    .help--now--text{
+        font-size: 13px;
+    }
+    .btn--start{
+        font-size: 15px;
+        padding: 3px;
+        width: fit-content;
+    }
+    
+}

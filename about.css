@@ -149,3 +149,9 @@
     }
     
 }
+@media (max-width:400px) {
+    #About{
+        height: 310vh;
+    }
+    
+}
