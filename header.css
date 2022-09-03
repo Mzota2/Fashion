@@ -157,6 +157,7 @@ header{
 @media (max-width:900px) {
     html{
         display: block;
+        overflow-x: hidden;
      }
     body{
         overflow-x: hidden;
