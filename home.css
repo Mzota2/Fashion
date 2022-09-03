@@ -1,0 +1,76 @@
+#Home{
+    margin-top: 5px;
+}
+.fashion--image--container{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fashion--container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.home--fashion--image{
+    z-index: 102;
+    cursor: pointer;
+    max-width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image--detail-container{
+    z-index: 103;
+    left: 10%;
+    position: absolute;
+    top: 84%;
+    width: 80%;
+    height: 15%;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#image1{
+    z-index: 102;
+
+}
+
+.like , .share ,.dislike {
+    cursor: pointer;
+    font-size: 25px;
+    z-index: 2;
+    color: white;
+
+}
+.price{
+    letter-spacing: 2px;
+    font: 25px;
+    font-weight: 500;
+    font-family: 'Mitr' , monospace;
+    color: white;
+}
+.display{
+    z-index: 103;
+}
+
+@media (max-width:900px) {
+    
+    .fashion--container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fashion--image--container{
+        width: 95%;
+    }
+}
+

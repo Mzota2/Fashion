@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+html{
+   display: flex;
+}
+.scrolltop {
+    z-index: 200;
+    cursor: pointer;
+    position: fixed;
+    top: 80%;
+    left: 90%;
+    font-size: 35px;
+    color: rgba(105, 37, 27, 0.721);
+    display: none;
+    scroll-behavior: smooth;
+    
+    
+}
+#scrollbtn{
+    display: none;
+}
+.scrolltop:hover{
+    color: blueviolet;
+}

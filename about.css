@@ -1,0 +1,151 @@
+#About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.about--container{
+    width: 95%;
+    height:85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.designer--container{
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 3px rgba(40, 40, 40, 0.751) , 0px 2px 4px rgba(62, 61, 61, 0.425);
+
+}
+.designer--profile--image{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.designer--profession{
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Mitr' , sans-serif;
+    font-size: 18px;
+}
+.designer--name{
+    text-align: center;
+    font-family: 'Mitr' , sans-serif;
+    font-size: 17px;
+}
+.designer--info--container{
+    width: 100%;
+}
+.designer--skills--container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.designer--skills{
+    width: 50%;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 2px 3px rgba(40, 40, 40, 0.751) , 0px 2px 4px rgba(62, 61, 61, 0.425);
+}
+.designer--skill--rating{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.708);
+    text-align: center;
+    width: 90%;
+    height: 15px;
+    border-radius: 15px;
+    background-color: rgb(12, 12, 40);
+    font-family: 'Mitr';
+    font-size: 10px;
+}
+.designer--skills--description{
+    font-family: 'Mitr';
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+.designer--interests---title{
+    margin-top: 10px;
+    padding: 0px 10px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 2px 3px rgba(40, 40, 40, 0.751) , 0px 2px 4px rgba(62, 61, 61, 0.425);
+
+}
+.designer--interests{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+}
+.designer--interests > span{
+    color: rgba(255, 255, 255, 0.797);
+    margin-top: 5px;
+    width: 50%;
+    height: 45px;
+    background-color: rgb(90, 36, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact--me--text{
+    width: 100%;
+    font-family: 'Mitr';
+    font-size: 18px;
+    text-align: center;
+}
+.designer--social{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-evenly;
+    
+}
+.contact--me{
+    cursor: pointer;
+    color: rgb(59, 85, 108);
+    font-size: 17px;
+
+}
+@media (max-width:1277px) {
+    #About{
+        height: 120vh;
+    }
+    
+}
+@media (max-width:900px) {
+    #About{
+        height: 350vh;
+    }
+    .about--container{
+        flex-direction: column;
+    }
+    .designer--container{
+        width: 95%;
+        height: 33%;
+    }
+    .designer--interests > span{
+        height: 30px;
+    
+    }
+    
+}
